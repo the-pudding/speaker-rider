@@ -1,15 +1,12 @@
 <script>
   import Meta from "./Meta.svelte";
-  import Demo from "./demo/Demo.svelte";
-  import Header from "./pudding/Header.svelte";
-  import Footer from "./pudding/Footer.svelte";
+  import Intro from "./Intro.svelte";
+  import Criteria from "./Criteria.svelte";
+  import Outro from "./Outro.svelte";
+  import copy from "../data/copy.json";
 </script>
 
 <Meta />
-
-<Header />
-
-<!-- demo of all features -->
-<Demo />
-
-<Footer />
+<Intro />
+<Criteria />
+<Outro />
