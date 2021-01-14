@@ -20,8 +20,9 @@
 
 <style>
     #outro {
-        max-width: 40rem;
+        max-width: 42rem;
         margin: 0 auto;
+        padding: 0 1rem;
     }
 
     p {
@@ -51,6 +52,16 @@
     .logos a {
         width: 12rem;
         padding: 0 1rem;
+        background: none;
+    }
+
+    @media only screen and (max-width: 620px) {
+        p {
+            font-size: 1rem;
+        }
+        .acknowledgements p {
+            font-size: 0.75rem;
+        }
     }
 </style>
     

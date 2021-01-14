@@ -237,10 +237,16 @@ input[type="range"]:focus::-ms-fill-upper {
   background: var(--background-ui);
 }
 a {
-  color: var(--on-orange);
+  background-repeat: no-repeat;
+  transition: background-position .08s ease-out;
+  background-image: linear-gradient(180deg,transparent 0,var(--on-orange) 0);
+  background-position: 0 1.125em;
+  border-bottom: none;
+  text-decoration: none;
+  color: var(--off-black)
 }
 a:hover {
-  color: var(--gray-dark)
+  background-position: 0 0em;
 }
 img,
 video {
