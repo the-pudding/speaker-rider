@@ -30,22 +30,24 @@
         counter-reset: item;
     }
 
-    ol li::marker {
+    ol li::before {
         color: var(--on-orange);
         font-size: 3rem;
-        opacity: 0;
+        position: absolute;
+        left: -4.5rem;
+        top: 0.25rem;
+        width: 4rem;
+        text-align: right;
+        display: block;
+        line-height: 1.5;
         font-weight: 700;
-        content: counter(customlistcounter) "  ";
+        content: counter(item) "";
     }
     li {
-        counter-increment: customlistcounter;
+        counter-increment: item;
         padding: 1rem 0 3rem 0;
-        border-top: 1px solid var(--gray-light);
-    }
-
-    .spacing {
         position: relative;
-        top: -1.3rem;
+        border-top: 1px solid var(--gray-light);
     }
 
     .hed {
@@ -55,29 +57,30 @@
 
     @media only screen and (max-width: 800px) {
        ol {
-           padding: 0 1rem 0 4rem;
+           padding: 0 1rem 0 3.5rem;
        }
-       ol li::marker {
+       ol li::before {
            font-size: 2.5rem;
+           width: 3rem;
+           left: -3.5rem;
+           top: 0.5rem;
        }
-       .spacing {
-           top: -1rem; 
-       }
+
     }
 
     @media only screen and (max-width: 620px) {
         ol {
             font-size: 1rem;
-            padding: 0 0 0 3.25rem;
+            padding: 0 0 0 3rem;
         }
-        ol li::marker {
+        ol li::before {
            font-size: 2rem;
+           width: 2.5rem;
+           left: -3rem;
+           top: 0rem;
         }
         li {
             padding: 0.5rem 0 2rem 0;  
-        }
-        .spacing {
-            top: -0.75rem; 
         }
     }
 </style>

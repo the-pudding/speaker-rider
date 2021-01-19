@@ -37,6 +37,6 @@
     "dev": "npm run dev:rollup",
     "predeploy": "npm run build",
     "deploy": "rollup -c rollup.config-ssr.js",
-    "start": "sirv public"
+    "start": "sirv public --host"
   }
 }
