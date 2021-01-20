@@ -31,7 +31,7 @@
     }
 
     ol li::before {
-        color: var(--on-orange);
+        color: var(--on-teal);
         font-size: 3rem;
         position: absolute;
         left: -4.5rem;

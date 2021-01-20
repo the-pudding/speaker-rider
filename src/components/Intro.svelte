@@ -18,7 +18,7 @@
 
     h1 {
         font-family: var(--serif-hed);
-        font-size: 6em;
+        font-size: 5.5em;
         line-height: 1.05;
         padding: 0 0 2rem 0;
         text-align: center;
@@ -36,7 +36,7 @@
 
     @media only screen and (max-width: 800px) {
         h1 {
-            font-size: 4.5rem;
+            font-size: 4.25rem;
             padding: 0 0 1.5rem 0;
         }
     }
@@ -46,7 +46,7 @@
             padding: 2rem 1rem 3rem 1rem;
         }
         h1 {
-            font-size: 3rem;
+            font-size: 3.25rem;
             padding: 0 0 1rem 0;
         }
         p {
@@ -54,13 +54,19 @@
         }
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 480px) {
         #intro {
             padding: 2rem 1rem 2rem 1rem;
         }
         h1 {
-            font-size: 2.25rem;
+            font-size: 2.5rem;
             padding: 0 0 0.75rem 0;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        h1 {
+            font-size: 2.25rem;
         }
     }
 </style>
