@@ -1,29 +1,29 @@
 <svelte:head>
-  <title>Svelte Starter</title>
+  <title>Speaker Rider for Meaningfully Inclusive Events</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="" />
-  <meta name="news_keywords" content="" />
+  <meta name="description" content="10 baseline criteria to hold events and organizations accountable" />
+  <meta name="news_keywords" content="speaker, rider, inclusive, diverse, events, organizations, conference, speaking, criteria, 10" />
 
-  <meta property="og:title" content="" />
-  <meta property="og:site_name" content="" />
+  <meta property="og:title" content="Speaker Rider for Meaningfully Inclusive Events" />
+  <meta property="og:site_name" content="Open News" />
   <meta property="og:url" content="" />
-  <meta property="og:description" content="description" />
+  <meta property="og:description" content="10 baseline criteria to hold events and organizations accountable" />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="en_US" />
 
   <meta property="og:image" content="" />
-  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:type" content="assets/images/social-facebook.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="" />
-  <meta name="twitter:creator" content="" />
-  <meta name="twitter:title" content="" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image:src" content="" />
+  <meta name="twitter:creator" content="@jadiehm" />
+  <meta name="twitter:title" content="Speaker Rider for Meaningfully Inclusive Events" />
+  <meta name="twitter:description" content="10 baseline criteria to hold events and organizations accountable" />
+  <meta name="twitter:image:src" content="assets/images/social-twitter.jpg" />
 
   <meta name="robots" content="max-image-preview:large" />
 
