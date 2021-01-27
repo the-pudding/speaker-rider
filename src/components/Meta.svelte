@@ -8,13 +8,13 @@
 
   <meta property="og:title" content="Speaker Rider for Meaningfully Inclusive Events" />
   <meta property="og:site_name" content="Open News" />
-  <meta property="og:url" content="" />
+  <meta property="og:url" content="https://opennews.org/projects/speaker-rider/" />
   <meta property="og:description" content="10 baseline criteria to hold events and organizations accountable" />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="en_US" />
 
-  <meta property="og:image" content="" />
-  <meta property="og:image:type" content="assets/images/social-facebook.jpg" />
+  <meta property="og:image" content="assets/images/social-facebook.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
   <meta property="og:image:alt" content="Title card image with the words 'Speaker Rider for Meaningfully Inclusive Events'" />
