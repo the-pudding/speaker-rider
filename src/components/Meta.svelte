@@ -17,6 +17,7 @@
   <meta property="og:image:type" content="assets/images/social-facebook.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
+  <meta property="og:image:alt" content="Title card image with the words 'Speaker Rider for Meaningfully Inclusive Events'" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="" />
@@ -24,6 +25,7 @@
   <meta name="twitter:title" content="Speaker Rider for Meaningfully Inclusive Events" />
   <meta name="twitter:description" content="10 baseline criteria to hold events and organizations accountable" />
   <meta name="twitter:image:src" content="assets/images/social-twitter.jpg" />
+  <meta name="twitter:image:alt" content="Title card image with the words 'Speaker Rider for Meaningfully Inclusive Events'">
 
   <meta name="robots" content="max-image-preview:large" />
 
