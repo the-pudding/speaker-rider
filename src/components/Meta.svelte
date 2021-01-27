@@ -20,7 +20,7 @@
   <meta property="og:image:alt" content="Title card image with the words 'Speaker Rider for Meaningfully Inclusive Events'" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="https://opennews.org/projects/speaker-rider/" />
+  <meta name="twitter:site" content="@opennews" />
   <meta name="twitter:creator" content="@jadiehm" />
   <meta name="twitter:title" content="Speaker Rider for Meaningfully Inclusive Events" />
   <meta name="twitter:description" content="10 baseline criteria to hold events and organizations accountable" />
@@ -29,5 +29,5 @@
 
   <meta name="robots" content="max-image-preview:large" />
 
-  <link rel="canonical" href="" />
+  <link rel="canonical" href="https://opennews.org/projects/speaker-rider/" />
 </svelte:head>
